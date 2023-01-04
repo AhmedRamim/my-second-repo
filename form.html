@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to jamal er ma pitha ghor</h2>
+    <form action="">
+        <label for="name">Your Name: 
+            <input required id="name" placeholder="Name" type="text">
+        </label>
+        <label for="name">Your password: 
+            <input id="name" required placeholder="password" type="password">
+        </label>
+        <fieldset>
+            <legend>Pick one Pitha</legend>
+            <label for="chitoyPitha">
+                <input type="radio" name="pitha" id="chitoyPitha">Chitoy Pitha
+            </label>
+            <label for="PuliPitha">
+                <input type="radio" name="pitha" id="PuliPitha">Puli Pitha
+            </label>
+            <label for="vapaPitha">
+                <input type="radio" name="pitha" id="vapaPitha">Vapa Pitha
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select Multiple Vorta</legend>
+            <label for="Shutki">
+                <input type="checkbox" name="Vorta" id="Shutki">Shutki
+            </label>
+            <label for="shorisha">
+                <input type="checkbox" name="Vorta" id="shorisha">Shorisha
+            </label>
+            <label for="Chepha">
+                <input type="checkbox" name="Vorta" id="Chepha">Chepha
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
